@@ -5,9 +5,9 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using Umbraco.IdentityExtensions;
 using Umbraco.Web.Security.Identity;
-using BackofficeADFSAuthenticationDemo;
+using SKEACMS_ADFS;
 
-namespace BackofficeADFSAuthenticationDemo
+namespace SKEACMS_ADFS
 {
 
     /// <summary>

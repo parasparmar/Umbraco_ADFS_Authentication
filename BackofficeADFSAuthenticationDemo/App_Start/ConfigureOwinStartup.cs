@@ -4,13 +4,13 @@ using Umbraco.Core;
 using Umbraco.Core.Security;
 using Umbraco.Web.Security.Identity;
 using Umbraco.IdentityExtensions;
-using BackofficeADFSAuthenticationDemo;
+using SKEACMS_ADFS;
 
 //To use this startup class, change the appSetting value in the web.config called 
 // "owin:appStartup" to be "UmbracoCustomOwinStartup"
 
 [assembly: OwinStartup("ConfigureOwinStartup", typeof(ConfigureOwinStartup))]
-namespace BackofficeADFSAuthenticationDemo
+namespace SKEACMS_ADFS
 {
     /// <summary>
     /// A custom way to configure OWIN for Umbraco

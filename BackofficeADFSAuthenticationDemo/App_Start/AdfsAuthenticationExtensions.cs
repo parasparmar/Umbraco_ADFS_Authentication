@@ -5,7 +5,7 @@ using Owin;
 using Umbraco.Web.Security.Identity;
 using Constants = Umbraco.Core.Constants;
 
-namespace BackofficeADFSAuthenticationDemo
+namespace SKEACMS_ADFS
 {
     public static class AdfsAuthenticationExtensions
     {
