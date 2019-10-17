@@ -26,14 +26,14 @@ namespace SKEACMS_ADFS
                 Wtrealm = adfsRelyingParty,
                 MetadataAddress = adfsMetadataEndpoint,
                 SignInAsAuthenticationType = Constants.Security.BackOfficeExternalAuthenticationType,
-                Caption = caption, 
+                Caption = caption,
                 Wreply = $"{adfsRelyingParty}umbraco" // Redirect to the Umbraco back office after succesful authentication
             };
 
             wsFedOptions.ForUmbracoBackOffice(style, icon);
 
             wsFedOptions.AuthenticationType = adfsFederationServerIdentifier;
-            
+
             // https://our.umbraco.com/apidocs/csharp/api/Umbraco.Web.Security.Identity.ExternalSignInAutoLinkOptions.html
             wsFedOptions.SetExternalSignInAutoLinkOptions(new ExternalSignInAutoLinkOptions(true, "editor", new string[] { "en-US" }));
 
